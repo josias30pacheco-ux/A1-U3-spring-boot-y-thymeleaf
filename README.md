@@ -31,42 +31,43 @@ Thymeleaf Templates: Son las páginas web HTML.
 
 Diagrama de la estructura de carpetas del proyecto
 
-
+```txt
 estudiantes/
 │
 ├── src/
+│   │
 │   └── main/
+│       │
 │       ├── java/
+│       │   │
 │       │   └── com/
 │       │       └── example/
 │       │           └── estudiantes/
+│       │               │
 │       │               ├── EstudiantesApplication.java
 │       │               │
-│       │               ├── controller/
-│       │               │   └── StudentController.java
-│       │               │
-│       │               ├── entity/
-│       │               │   └── Student.java
-│       │               │
-│       │               ├── repository/
-│       │               │   └── StudentRepository.java
-│       │               │
-│       │               └── service/
-│       │                   └── StudentService.java
-│       │
-│       └── resources/
-│           ├── static/
-│           │   └── (css, imágenes si agregas)
-│           │
-│           ├── templates/
-│           │   ├── index.html
-│           │   ├── form.html
-│           │   └── layout.html (si usas)
-│           │
-│           ├── application.properties
-│           └── data.sql
+│               ├── controller/
+│               │     └── StudentController.java
+│               │
+│               ├── entity/
+│               │     └── Student.java
+│               │
+│               ├── repository/
+│               │     └── StudentRepository.java
+│               │
+│               └── service/
+│                     └── StudentService.java
 │
-├── pom.xml
-├── mvnw
-├── mvnw.cmd
-└── HELP.md
+├── resources/
+│   ├── static/
+│   ├── templates/
+│   │     ├── index.html
+│   │     ├── form.html
+│   │
+│   ├── application.properties
+│   └── data.sql
+│
+└── pom.xml
+```
+
+
